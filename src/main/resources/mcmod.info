@@ -1,0 +1,16 @@
+[
+{
+  "modid": "soundCap",
+  "name": "SoundCap",
+  "description": "Increases the sound cap",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheCodeWarrior"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
