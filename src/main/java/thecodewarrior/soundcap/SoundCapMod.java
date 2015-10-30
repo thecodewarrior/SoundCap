@@ -22,11 +22,11 @@ public class SoundCapMod
     public void preInit(FMLPreInitializationEvent event)
     {
     	l = event.getModLog();
-    	float mulNormal = 1, mulStream = 1;
+    	float mulNormal = 2, mulStream = 2;
     	Configuration config = new Configuration(event.getSuggestedConfigurationFile());
     	mulNormal = config.getFloat("normal", "multipliers", mulNormal, 0.25f, 64,
     		"Multiplier for the number of normal channels, number of channels will be 28*this");
-    	mulStream = config.getFloat("stream", "multipliers", mulNormal, 0.25f, 64,
+    	mulStream = config.getFloat("stream", "multipliers", mulStream, 0.25f, 64,
         	"Multiplier for the number of stream channels, number of channels will be 4*this");
     	config.save();
     	int normalChannels    = (int)Math.floor( 28*mulNormal   );
